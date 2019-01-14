@@ -21,3 +21,15 @@ let currentYear = 2019;
 let bornYear = 1997;
 
 console.log("Ik ben " + (currentYear - bornYear) + " jaar oud");
+
+//Voorspeller
+let currentAge = 22;
+let maxAge = 100;
+
+console.log(
+  "Je hebt nog steeds " +
+    (maxAge - currentAge) +
+    " jaar voordat je de leeftijd van " +
+    maxAge +
+    " jaar bereikt hebt."
+);
