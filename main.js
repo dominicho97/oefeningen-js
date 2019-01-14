@@ -1,3 +1,5 @@
+// OEFENINGEN VARIABELEN
+
 // Fortuinbouwer
 const beroep = " web developer";
 const land = "belgië";
@@ -33,3 +35,44 @@ console.log(
     maxAge +
     " jaar bereikt hebt."
 );
+
+// Prioriteiten
+let resultaat = (1 + 2) * 3 + 4 / 2;
+
+/*stap 1*/ (1 + 2) * 3 + 4 / 2; // (1+2)= 3 haakjes prioriteit
+/*stap 2:*/ (1 + 2) * 3 + 4 / 2; //3*3 = 9 product prioriteit
+/*stap 3:*/ (1 + 2) * 3 + 4 / 2; // 4/2 = 2
+/*stap 4:*/ (1 + 2) * 3 + 4 / 2; //9 + 2 = 11
+
+// OEFENINGEN VERGELIJKINGEN
+
+//Talen
+let languages = [
+  (fr = "Bonjour tout le Monde"),
+  (nl = "Hallo iedereen"),
+  (eng = "Hello world")
+];
+let saveMessage = eng;
+
+if (saveMessage === fr) {
+  ("Bonjour tout le monde");
+} else if (saveMessage === nl) {
+  ("Hallo iedereen");
+} else {
+  ("Hello world");
+}
+console.log(saveMessage);
+
+// Scores weergeven
+let score = 89;
+let result;
+
+if (score <= 50) {
+  result = "Rank C";
+} else if (score < 90) {
+  result = "rank B";
+} else {
+  result = "rank A";
+}
+
+console.log(result);
