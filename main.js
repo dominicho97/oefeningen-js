@@ -103,3 +103,18 @@ for (let i = 0; i < 11; i++) {
 for (let i = 1; i < 11; i++) {
   console.log(i + "*9 = " + i * 9);
 }
+
+// Score toewijzen
+
+for (let i = 0; i < 100; i++) {
+  console.log("Voor " + i + " punten heb je ");
+}
+
+// Piramide
+for (let i = 0; i < 1; i++) {
+  console.log("*");
+  console.log("**");
+  console.log("***");
+  console.log("****");
+  console.log("*****");
+}
