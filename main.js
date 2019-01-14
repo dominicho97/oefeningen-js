@@ -118,3 +118,40 @@ for (let i = 0; i < 1; i++) {
   console.log("****");
   console.log("*****");
 }
+
+// FUNCTIES
+
+function aftrek(a, b) {
+  return a - b;
+}
+function maal(a, b) {
+  return a * b;
+}
+
+function percent(a, percent) {
+  return a / percent;
+}
+
+//
+//
+//ARRAYS
+
+//Optellen
+var sum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].reduce(add, 0);
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(sum); // 10
+
+//De beste keuze
+let actors = ["Sylvester Stalone", "Tom Cruise", "Brad Pitt"];
+console.log(
+  " De eerste is " +
+    actors[0] +
+    " de tweede is " +
+    actors[1] +
+    " de derde is " +
+    actors[2]
+);
