@@ -76,3 +76,17 @@ if (score <= 50) {
 }
 
 console.log(result);
+
+// In het meervoud
+let enkelvoud = "appel";
+
+let number = 2;
+let res;
+
+if (number >= 2) {
+  res = enkelvoud + "s";
+} else {
+  res = enkelvoud;
+}
+
+console.log(" ik heb " + number + "" + res);
