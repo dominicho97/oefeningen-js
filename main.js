@@ -169,14 +169,23 @@ console.log(arr3);
 
 let arrMax = console.log(Math.min(7, 5, -12, 6, 32, 18, 14, -2));
 let arrMin = console.log(Math.max(-3, 9, 21, 36, 27, 54, 17, 35));
-console.log(arrMax + arrMin);
+let arrSum = arrMax + arrMin;
+console.log(arrSum);
 
 // Willekeurig
 let floatSpeed = 10.4;
 console.log(floatSpeed);
-let lowSpeed = Math.floor(floatSpeed);
+let lowSpeed = Math.floor(floatSpeed); // rond af naar boven
 console.log(lowSpeed);
-let highSpeed = Math.ceil(floatSpeed);
+let highSpeed = Math.ceil(floatSpeed); // rond af naar beneden
 console.log(highSpeed);
 
 //Willekeurig 2
+
+// generate number between 0-50
+let nbr = Math.floor(Math.random() * 51);
+console.log(nbr);
+
+// generate number between 0-1
+let nbr2 = Math.random();
+console.log(nbr2);
