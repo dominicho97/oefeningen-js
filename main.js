@@ -90,3 +90,9 @@ if (number >= 2) {
 }
 
 console.log(" ik heb " + number + "" + res);
+
+// OEFENINGEN LOOPS
+for (let i = 0; i < 11; i++) {
+  // loop gaat maar tot 11 omdat bij console log(i*2 dus tot 20-22)
+  console.log(i * 2 + " is even");
+}
