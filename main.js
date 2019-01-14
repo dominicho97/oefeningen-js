@@ -162,3 +162,21 @@ console.log(arr3);
 
 arr3.push("Bowser"); // added bowser into array
 console.log(arr3);
+
+// MATH OBJECT
+
+// Max & Min
+
+let arrMax = console.log(Math.min(7, 5, -12, 6, 32, 18, 14, -2));
+let arrMin = console.log(Math.max(-3, 9, 21, 36, 27, 54, 17, 35));
+console.log(arrMax + arrMin);
+
+// Willekeurig
+let floatSpeed = 10.4;
+console.log(floatSpeed);
+let lowSpeed = Math.floor(floatSpeed);
+console.log(lowSpeed);
+let highSpeed = Math.ceil(floatSpeed);
+console.log(highSpeed);
+
+//Willekeurig 2
