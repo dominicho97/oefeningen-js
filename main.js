@@ -189,3 +189,21 @@ console.log(nbr);
 // generate number between 0-1
 let nbr2 = Math.random();
 console.log(nbr2);
+
+// Willekeurig 3
+
+let mortalKombat = [
+  "Goro",
+  "Johnny",
+  "Cago",
+  "Kano",
+  "Liu Kano",
+  "Raiden",
+  "Raptile",
+  "Scorpion",
+  "Shang Tsun",
+  "Sonya",
+  "Sub-Zero."
+];
+
+console.log(mortalKombat[4]);
