@@ -1,3 +1,4 @@
+// Fortuinbouwer
 const beroep = " web developer";
 const land = "belgië";
 const vrouw = "toekomstige vrouw";
@@ -14,3 +15,9 @@ console.log(
     kinderen +
     " kinderen."
 );
+
+//Bereken de leeftijd
+let currentYear = 2019;
+let bornYear = 1997;
+
+console.log("Ik ben " + (currentYear - bornYear) + " jaar oud");
