@@ -207,3 +207,15 @@ let mortalKombat = [
 ];
 
 console.log(mortalKombat[4]);
+
+// OBJECTEN
+
+let npc = {
+  name: "Domonoc",
+  age: 22,
+  items_to_give: ["Sword", "Shield"],
+  giveItem: function() {
+    console.log("*Give Sword");
+    console.log("*Give Shield");
+  }
+};
