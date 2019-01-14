@@ -155,3 +155,10 @@ console.log(
     " de derde is " +
     actors[2]
 );
+
+//Klonen
+let arr3 = ["Mario", "Luigi", "Peach"];
+console.log(arr3);
+
+arr3.push("Bowser"); // added bowser into array
+console.log(arr3);
