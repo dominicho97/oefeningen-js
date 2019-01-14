@@ -22,7 +22,7 @@ console.log(
 let currentYear = 2019;
 let bornYear = 1997;
 
-console.log("Ik ben " + (currentYear - bornYear) + " jaar oud");
+console.log("Ik ben " + (currentYear - bornYear) + " jaar oud.");
 
 //Voorspeller
 let currentAge = 22;
@@ -92,7 +92,14 @@ if (number >= 2) {
 console.log(" ik heb " + number + "" + res);
 
 // OEFENINGEN LOOPS
+
+//even en oneven
 for (let i = 0; i < 11; i++) {
   // loop gaat maar tot 11 omdat bij console log(i*2 dus tot 20-22)
   console.log(i * 2 + " is even");
+}
+
+// Vermenigvuldigingstabellen
+for (let i = 1; i < 11; i++) {
+  console.log(i + "*9 = " + i * 9);
 }
