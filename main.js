@@ -213,9 +213,27 @@ console.log(mortalKombat[4]);
 let npc = {
   name: "Domonoc",
   age: 22,
-  items_to_give: ["Sword", "Shield"],
+  items_to_give: ["apple", "shirt"],
   giveItem: function() {
-    console.log("*Give Sword");
-    console.log("*Give Shield");
+    console.log("*Give apple");
+    console.log("*Give shirt");
   }
 };
+
+let shop = {
+  itemSell: ["sword", "shield", "staff", "hammer"],
+  title: "Blacksmith Bob",
+  physiq: [15, 0, 20, 5],
+  magic: [0, 0, 0, 10],
+  minLevel: [5, 10, 8, 5],
+  available: ["yes", "yes", "yes", "no"],
+
+  showAvailable: function() {
+    console.log(itemSell.pop());
+  },
+  minLevelItems: function() {
+    console.log(minLevel.slice(2));
+  }
+};
+
+console.log(shop);
