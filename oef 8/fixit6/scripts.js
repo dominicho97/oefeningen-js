@@ -78,7 +78,10 @@ const shows = [
 
 const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 
-const topScoreFilter = show => {};
+const topScoreFilter = show => {
+  "legion", "sneaky pete";
+  "a series of unfortunate events", "colony", "speechless", `stranger things`;
+};
 
 shows.filter(topScoreFilter);
 
