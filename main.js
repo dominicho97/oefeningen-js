@@ -94,6 +94,16 @@ console.log(" ik heb " + number + "" + res);
 // OEFENINGEN LOOPS
 
 //even en oneven
+
+function isEven(n) {
+  n = Number(n);
+  return n === 0 || !!(n && !(n % 2));
+}
+
+function isOdd(n) {
+  return isEven(Number(n) + 1);
+}
+
 for (let i = 0; i < 11; i++) {
   // loop gaat maar tot 11 omdat bij console log(i*2 dus tot 20-22)
   console.log(i * 2 + " is even");
@@ -237,3 +247,25 @@ let shop = {
 };
 
 console.log(shop);
+let weapon = {
+  name: "sword",
+  weaponDmg: 5
+};
+
+let mainCharacter = {
+  name: "JoJo",
+  level: "14",
+  life: 75,
+  weapon: weapon,
+  attack: function() {
+    console.log(
+      name +
+        "*attacks " +
+        npc +
+        "with" +
+        weapon +
+        "the damage is " +
+        level * weaponDmg
+    );
+  }
+};
