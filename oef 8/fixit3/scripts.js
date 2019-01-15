@@ -1,4 +1,5 @@
-const tvshows = [
+// changed const to movies
+const movies = [
   `legion`,
   `sneaky pete`,
   `santa clarita diet`,
