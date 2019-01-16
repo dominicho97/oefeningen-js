@@ -16,9 +16,8 @@ const movies = [
   `timeless`,
   `the oa`
 ];
-
+movies.reverse();
 document.write(`<ol>`);
 for (let i = 0; i < movies.length; i++) {
   document.write(`<li>${movies[i]}</li>`);
 }
-document.write(`</ol>`);
