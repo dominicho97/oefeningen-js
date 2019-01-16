@@ -1,4 +1,4 @@
-[
+const actors = [
   {
     actor: "Forest Whitaker",
     film: "The Last King of Scotland",
@@ -50,3 +50,19 @@
     age: 41
   }
 ];
+
+actorsAge = [
+  "Forest Whitaker",
+  "Daniel Day-Lewis",
+  "Sean Penn",
+  "Jeff Bridges",
+  "Colin Firth",
+  "Jean Dujardin",
+  "Daniel Day-Lewis",
+  "Matthew McConaughey",
+  "Eddie Redmayne",
+  "Leonardo DiCaprio"
+];
+
+actorsAge.sort();
+console.log(actorsAge);
