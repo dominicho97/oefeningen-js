@@ -11,4 +11,17 @@ const bestActors = [
   { name: "Sean Penn ", age: 58 }
 ];
 
-document.write("<ul>" + movies + "</ul>");
+/*const ordered = bestActors.sort(function(a,b){
+    if (a.year > b.year){
+    return +1 ;
+  } else {
+    return -1;
+  }
+  });
+*/
+const ordered = bestActors.sort((a, b) => (a.age > b.age ? 1 : -1));
+
+console.table(ordered);
+
+document.write("<ul>" + ordered + "</ul>");
+console.table(ordered);
