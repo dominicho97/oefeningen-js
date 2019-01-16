@@ -19,7 +19,12 @@ const show = [
 const wrapWithTag = (content, tagname) => {
   `<${tagname}>${content}</${tagname}>`;
 };
-
+/*
 document.write(`<li>`);
-show.forEach(show => document.write(wrapWithTag(show, `li`)));
+show.forEach(show => document.write(wrapWithTag(show, `<li>`)));
 document.write(`</li>`);
+*/
+document.write(`<ol>`);
+for (let i = 0; i < show.length; i++) {
+  document.write(`<li>${show[i]}</li>`);
+}
