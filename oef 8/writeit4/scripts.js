@@ -66,3 +66,4 @@ actorsAge = [
 
 actorsAge.sort();
 console.log(actorsAge);
+document.write(actorsAge);
