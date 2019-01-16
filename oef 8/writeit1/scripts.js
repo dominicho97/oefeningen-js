@@ -1,9 +1,12 @@
 const movies = [
-  "Hotel Transylvania 3: Summer Vacation",
-  "Don't Worry, He Won't Get Far on Foot",
-  "Hollywood aan de Schelde"
+  "Hotel Transylvania 3: Summer Vacation".toLocaleUpperCase(),
+  "Don't Worry, He Won't Get Far on Foot".toLocaleUpperCase(),
+  "Hollywood aan de Schelde".toLocaleUpperCase()
 ];
 
-let moviesUpper = movies.toUpperCase();
+document.write(movies);
 
-document.write("<ul>" + moviesUpper + "</ul>");
+document.write(`<ol>`);
+for (let i = 0; i < movies.length; i++) {
+  document.write(`<li>${movies[i]}</li>`);
+}
