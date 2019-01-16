@@ -21,7 +21,6 @@ const bestActors = [
 */
 const ordered = bestActors.sort((a, b) => (a.age > b.age ? 1 : -1));
 
-console.table(ordered);
-
+console.log(ordered);
 document.write("<ul>" + ordered + "</ul>");
 console.table(ordered);
