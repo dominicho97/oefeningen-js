@@ -1,7 +1,8 @@
 const movies = [
-  "Hotel Transylvania 3: Summer Vacation",
-  "Don't Worry, He Won't Get Far on Foot",
-  "Hollywood aan de Schelde"
+  "Hotel Transylvania 3: Summer Vacation".toLocaleLowerCase(),
+  "Don't Worry, He Won't Get Far on Foot".toLowerCase(),
+  "Hollywood aan de Schelde".toLocaleLowerCase()
 ];
 
-document.write("<ul>" + movies + "</ul>");
+moviesR = movies.reverse();
+document.write("<ul>" + moviesR + "</ul>");
