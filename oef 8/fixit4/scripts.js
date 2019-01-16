@@ -16,9 +16,7 @@ const show = [
   `the oa`
 ];
 
-const wrapWithTag = (content, tagname) => {
-  `<${tagname}>${content}</${tagname}>`;
-};
+const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 /*
 document.write(`<li>`);
 show.forEach(show => document.write(wrapWithTag(show, `<li>`)));
