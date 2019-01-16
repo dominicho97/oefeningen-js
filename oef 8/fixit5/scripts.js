@@ -25,7 +25,6 @@ const writeTitle = title => {
 
 const uCFirst = sentence => {
   let words = sentence.split(`.`); // added . here in ("")
-
   return words.join();
 };
 
