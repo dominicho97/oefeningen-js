@@ -6,3 +6,8 @@ const movies = [
 
 moviesR = movies.reverse();
 document.write("<ul>" + moviesR + "</ul>");
+
+document.write(`<ol>`);
+for (let i = 0; i < movies.length; i++) {
+  document.write(`<li>${movies[i]}</li>`);
+}
