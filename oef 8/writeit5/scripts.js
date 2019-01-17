@@ -39,3 +39,16 @@ const extras = [
     title: "Supplement Atmos"
   }
 ];
+
+/*
+fees.forEach(function(fees) {
+  console.log(fees);
+});
+
+extras.forEach(function(extras) {
+  console.log(extras);
+});
+*/
+fees.forEach(fee => {
+  extras.forEach(extra => console.log(fee, price, extras - price));
+});
