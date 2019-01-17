@@ -19,6 +19,7 @@ const bestActors = [
   }
   });
 */
+
 const ordered = bestActors.sort((a, b) => (a.age > b.age ? 1 : -1));
 
 console.log(ordered);
